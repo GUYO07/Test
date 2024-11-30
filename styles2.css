@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #f8f9fa;
+}
+
+
+.hero {
+   /* background: linear-gradient(120deg, #ff7eb3, #ff758c);*/
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #fffacd;
+    text-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
+}
+
+.cta-button {
+   /* background: #fffacd;*/
+    color: #ff758c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.about-me {
+    padding: 50px 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-me h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff758c;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content p {
+    max-width: 600px;
+    font-size: 1rem;
+    color: #555;
+}
+
+
+footer {
+   /* background: #ff758c;*/
+    color: rgb(121, 111, 111);
+    text-align: center;
+    padding: 20px;
+    font-size: 1.4rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  
